@@ -1,0 +1,43 @@
+# Environments, notebooks and local runtime files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.runtime/
+.env
+.env.*
+!.env.example
+
+# Execution outputs and working databases
+analysis/
+*.duckdb
+*.duckdb.wal
+*.db
+backups/
+Backups/
+sql/backups/
+sql/last_run.json
+sql/failed_run.json
+sql/validation_results.csv
+*.tmp
+# Interrupted SQL exports must never be staged for publication.
+**/.sql_refresh_*/
+
+# Full data cache and embedded-data reports stay in the local package
+data/raw/*
+!data/raw/README.md
+*.pbix
+*.pbit
+data/processed/*.csv
+!data/processed/macro_regime_signals.csv
+!data/processed/regional_regime.csv
+!data/processed/us_regime.csv
+!data/processed/monthly_market_signals.csv
+!data/processed/market_confirmation.csv
+!data/processed/repricing_watchlist.csv
+
+# Operating-system files
+Thumbs.db
+desktop.ini
+.DS_Store

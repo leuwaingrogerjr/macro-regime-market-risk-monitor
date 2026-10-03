@@ -1,0 +1,1208 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-03T12:36:25.245827+00:00",
+  "checks_passed": 235,
+  "scope": "Portable local repository reproduction and original-file preservation",
+  "notebook_code_cells_executed": [
+    14,
+    31
+  ],
+  "sql_checks_passed": 33,
+  "csvs_reproduced_exactly": 12,
+  "raw_sources_unchanged": 26,
+  "watchlist_sha256": "02f1f7287365b4d6421cdd4d9ccaf8fff2222b0ab5fca72d3ac7f675995f0b7f",
+  "report_sha256": "8d71e2fad1a1450f19a83bcd981afb59d73a73842343b5687efc9f21381e26b1",
+  "configuration_counts": {
+    "Multi-Channel Stress": 21,
+    "No Multi-Channel Stress": 49
+  },
+  "view_rows": {
+    "quarterly_monitor": 70,
+    "powerbi_monitor": 70,
+    "current_regime_benchmark": 2,
+    "current_pricing_comparison": 12,
+    "current_pricing_diagnostic": 12,
+    "repricing_watchlist": 9,
+    "stress_screen": 208
+  },
+  "pdf_pages": 3,
+  "pdf_visual_review": "All three rendered pages inspected; no clipping or overlap seen",
+  "original_project_modified": false,
+  "checks": [
+    {
+      "check": "Reproduced export cross_asset_quarterly.csv",
+      "passed": true,
+      "detail": "70 rows"
+    },
+    {
+      "check": "Original export preserved cross_asset_quarterly.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Reproduced export current_pricing_comparison.csv",
+      "passed": true,
+      "detail": "12 rows"
+    },
+    {
+      "check": "Original export preserved current_pricing_comparison.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Reproduced export current_pricing_diagnostic.csv",
+      "passed": true,
+      "detail": "12 rows"
+    },
+    {
+      "check": "Original export preserved current_pricing_diagnostic.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Reproduced export current_regime_benchmark.csv",
+      "passed": true,
+      "detail": "2 rows"
+    },
+    {
+      "check": "Original export preserved current_regime_benchmark.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Reproduced export equity_regime_analysis.csv",
+      "passed": true,
+      "detail": "73 rows"
+    },
+    {
+      "check": "Original export preserved equity_regime_analysis.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Reproduced export macro_regime_signals.csv",
+      "passed": true,
+      "detail": "117 rows"
+    },
+    {
+      "check": "Original export preserved macro_regime_signals.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Reproduced export market_confirmation.csv",
+      "passed": true,
+      "detail": "70 rows"
+    },
+    {
+      "check": "Original export preserved market_confirmation.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Reproduced export monthly_market_signals.csv",
+      "passed": true,
+      "detail": "213 rows"
+    },
+    {
+      "check": "Original export preserved monthly_market_signals.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Reproduced export powerbi_monitor.csv",
+      "passed": true,
+      "detail": "70 rows"
+    },
+    {
+      "check": "Original export preserved powerbi_monitor.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Reproduced export regional_regime.csv",
+      "passed": true,
+      "detail": "117 rows"
+    },
+    {
+      "check": "Original export preserved regional_regime.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Reproduced export repricing_watchlist.csv",
+      "passed": true,
+      "detail": "9 rows"
+    },
+    {
+      "check": "Original export preserved repricing_watchlist.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Reproduced export us_regime.csv",
+      "passed": true,
+      "detail": "313 rows"
+    },
+    {
+      "check": "Original export preserved us_regime.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved Sql/01_create_tables.sql",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved Sql/02_import_data.sql",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved Sql/03_create_views.sql",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved Sql/04_validate.sql",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved Sql/05_export.sql",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved Sql/06_analysis_queries.sql",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved Sql/export_contracts.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved Sql/last_run.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved Sql/requirements.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved Sql/run_sql.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved Sql/source_contracts.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved Sql/validation_results.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved data/raw/ecb_eurozone_10y.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved data/raw/ecb_eurozone_2y.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved data/raw/ecb_expected_inflation.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved data/raw/ecb_germany_10y.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved data/raw/ecb_italy_10y.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved data/raw/ecb_policy.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved data/raw/europe_snapshot_manifest.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved data/raw/eurostat_fiscal_ea21.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved data/raw/eurostat_gdp_ea21.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved data/raw/eurostat_hicp_ea.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved data/raw/eurostat_unemployment_ea21.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved data/raw/fred_A191RL1Q225SBEA.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved data/raw/fred_AD01RC1Q027SBEA.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved data/raw/fred_BAA10YM.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved data/raw/fred_BAMLC0A0CM.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved data/raw/fred_BAMLH0A0HYM2.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved data/raw/fred_CPIAUCSL.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved data/raw/fred_DFEDTARL.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved data/raw/fred_DFEDTARU.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved data/raw/fred_DGS10.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved data/raw/fred_DGS2.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved data/raw/fred_EXPINF2YR.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved data/raw/fred_GDP.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved data/raw/fred_snapshot_manifest.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved data/raw/fred_T10YIE.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved data/raw/fred_UNRATE.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved data/raw/manifest.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved data/raw/yahoo_equity_close.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved data/raw/yahoo_eurusd_close.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved data/raw/yahoo_snapshot_manifest.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved Power BI Screenshots/Screenshot 2026-10-03 130035.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved Power BI Screenshots/Screenshot 2026-10-03 130333.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved Power BI Screenshots/Screenshot 2026-10-03 130407.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved Power BI Screenshots/Screenshot 2026-10-03 130451.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input preserved Power BI Screenshots/Screenshot 2026-10-03 130544.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SQL business logic preserved 01_create_tables.sql",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SQL business logic preserved 02_import_data.sql",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SQL business logic preserved 03_create_views.sql",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SQL business logic preserved 04_validate.sql",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SQL business logic preserved 05_export.sql",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "SQL business logic preserved 06_analysis_queries.sql",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV contract preserved source_contracts.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CSV contract preserved export_contracts.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Notebook cell structure 01_fred_data_download.ipynb",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 01_fred_data_download.ipynb cell 3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 01_fred_data_download.ipynb cell 3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 01_fred_data_download.ipynb cell 4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 01_fred_data_download.ipynb cell 4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 01_fred_data_download.ipynb cell 6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 01_fred_data_download.ipynb cell 6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 01_fred_data_download.ipynb cell 8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 01_fred_data_download.ipynb cell 8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 01_fred_data_download.ipynb cell 10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 01_fred_data_download.ipynb cell 10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 01_fred_data_download.ipynb cell 12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 01_fred_data_download.ipynb cell 12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 01_fred_data_download.ipynb cell 14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 01_fred_data_download.ipynb cell 14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 01_fred_data_download.ipynb cell 16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 01_fred_data_download.ipynb cell 16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 01_fred_data_download.ipynb cell 18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 01_fred_data_download.ipynb cell 18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 01_fred_data_download.ipynb cell 19",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 01_fred_data_download.ipynb cell 19",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 01_fred_data_download.ipynb cell 21",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 01_fred_data_download.ipynb cell 21",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 01_fred_data_download.ipynb cell 23",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 01_fred_data_download.ipynb cell 23",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 01_fred_data_download.ipynb cell 25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 01_fred_data_download.ipynb cell 25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 01_fred_data_download.ipynb cell 27",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 01_fred_data_download.ipynb cell 27",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Notebook cell structure 02_equity_market_analysis.ipynb",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 02_equity_market_analysis.ipynb cell 3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 02_equity_market_analysis.ipynb cell 3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 02_equity_market_analysis.ipynb cell 5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 02_equity_market_analysis.ipynb cell 5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 02_equity_market_analysis.ipynb cell 7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 02_equity_market_analysis.ipynb cell 7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 02_equity_market_analysis.ipynb cell 9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 02_equity_market_analysis.ipynb cell 9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 02_equity_market_analysis.ipynb cell 10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 02_equity_market_analysis.ipynb cell 10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 02_equity_market_analysis.ipynb cell 11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 02_equity_market_analysis.ipynb cell 11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 02_equity_market_analysis.ipynb cell 12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 02_equity_market_analysis.ipynb cell 12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 02_equity_market_analysis.ipynb cell 14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 02_equity_market_analysis.ipynb cell 14",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 02_equity_market_analysis.ipynb cell 15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 02_equity_market_analysis.ipynb cell 15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 02_equity_market_analysis.ipynb cell 16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 02_equity_market_analysis.ipynb cell 16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 02_equity_market_analysis.ipynb cell 18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 02_equity_market_analysis.ipynb cell 18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 02_equity_market_analysis.ipynb cell 19",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 02_equity_market_analysis.ipynb cell 19",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 02_equity_market_analysis.ipynb cell 20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 02_equity_market_analysis.ipynb cell 20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 02_equity_market_analysis.ipynb cell 22",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 02_equity_market_analysis.ipynb cell 22",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 02_equity_market_analysis.ipynb cell 23",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 02_equity_market_analysis.ipynb cell 23",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 02_equity_market_analysis.ipynb cell 24",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 02_equity_market_analysis.ipynb cell 24",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 02_equity_market_analysis.ipynb cell 26",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 02_equity_market_analysis.ipynb cell 26",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 02_equity_market_analysis.ipynb cell 27",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 02_equity_market_analysis.ipynb cell 27",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 02_equity_market_analysis.ipynb cell 28",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 02_equity_market_analysis.ipynb cell 28",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 02_equity_market_analysis.ipynb cell 29",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 02_equity_market_analysis.ipynb cell 29",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 02_equity_market_analysis.ipynb cell 30",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 02_equity_market_analysis.ipynb cell 30",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 02_equity_market_analysis.ipynb cell 31",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 02_equity_market_analysis.ipynb cell 31",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 02_equity_market_analysis.ipynb cell 33",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 02_equity_market_analysis.ipynb cell 33",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 02_equity_market_analysis.ipynb cell 34",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 02_equity_market_analysis.ipynb cell 34",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 02_equity_market_analysis.ipynb cell 35",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 02_equity_market_analysis.ipynb cell 35",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 02_equity_market_analysis.ipynb cell 36",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 02_equity_market_analysis.ipynb cell 36",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 02_equity_market_analysis.ipynb cell 38",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 02_equity_market_analysis.ipynb cell 38",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 02_equity_market_analysis.ipynb cell 39",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 02_equity_market_analysis.ipynb cell 39",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 02_equity_market_analysis.ipynb cell 40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 02_equity_market_analysis.ipynb cell 40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 02_equity_market_analysis.ipynb cell 42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 02_equity_market_analysis.ipynb cell 42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calculation code preserved 02_equity_market_analysis.ipynb cell 43",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clean source outputs 02_equity_market_analysis.ipynb cell 43",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Approved raw source fred_A191RL1Q225SBEA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Approved raw source fred_AD01RC1Q027SBEA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Approved raw source fred_BAA10YM",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Approved raw source fred_BAMLC0A0CM",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Approved raw source fred_BAMLH0A0HYM2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Approved raw source fred_CPIAUCSL",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Approved raw source fred_DFEDTARL",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Approved raw source fred_DFEDTARU",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Approved raw source fred_DGS10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Approved raw source fred_DGS2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Approved raw source fred_EXPINF2YR",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Approved raw source fred_GDP",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Approved raw source fred_T10YIE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Approved raw source fred_UNRATE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Approved raw source ecb_germany_10y",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Approved raw source ecb_italy_10y",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Approved raw source ecb_eurozone_10y",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Approved raw source ecb_eurozone_2y",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Approved raw source ecb_expected_inflation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Approved raw source eurostat_gdp_ea21",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Approved raw source ecb_policy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Approved raw source eurostat_hicp_ea",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Approved raw source eurostat_fiscal_ea21",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Approved raw source eurostat_unemployment_ea21",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Approved raw source yahoo_equity_close",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Approved raw source yahoo_eurusd_close",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Frozen BEA vintage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Final report preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Screenshot preserved 01_executive_monitor",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Screenshot preserved 02_macro_regimes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Screenshot preserved 03_market_pricing",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Screenshot preserved 04_historical_benchmark_watchlist",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Screenshot preserved 05_historical_explorer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Two fresh notebook kernels passed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cached run preserved source files",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "33 SQL validations passed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Rebuilt view quarterly_monitor",
+      "passed": true,
+      "detail": "70 rows"
+    },
+    {
+      "check": "Rebuilt view powerbi_monitor",
+      "passed": true,
+      "detail": "70 rows"
+    },
+    {
+      "check": "Rebuilt view current_regime_benchmark",
+      "passed": true,
+      "detail": "2 rows"
+    },
+    {
+      "check": "Rebuilt view current_pricing_comparison",
+      "passed": true,
+      "detail": "12 rows"
+    },
+    {
+      "check": "Rebuilt view current_pricing_diagnostic",
+      "passed": true,
+      "detail": "12 rows"
+    },
+    {
+      "check": "Rebuilt view repricing_watchlist",
+      "passed": true,
+      "detail": "9 rows"
+    },
+    {
+      "check": "Rebuilt view stress_screen",
+      "passed": true,
+      "detail": "208 rows"
+    },
+    {
+      "check": "Latest snapshot regimes and counts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Every watchlist byte preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Research summary has three pages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PDF exact watchlist trigger Eurozone Equity repricing adverse_trigger",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PDF exact watchlist trigger Eurozone Equity repricing benign_trigger",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PDF exact watchlist trigger Eurozone Front-end rates adverse_trigger",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PDF exact watchlist trigger Eurozone Front-end rates benign_trigger",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PDF exact watchlist trigger Eurozone Inflation persistence adverse_trigger",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PDF exact watchlist trigger Eurozone Inflation persistence benign_trigger",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PDF exact watchlist trigger Eurozone Long-rate pressure adverse_trigger",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PDF exact watchlist trigger Eurozone Long-rate pressure benign_trigger",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PDF exact watchlist trigger Eurozone Sovereign fragmentation adverse_trigger",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PDF exact watchlist trigger Eurozone Sovereign fragmentation benign_trigger",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PDF exact watchlist trigger US Credit repricing adverse_trigger",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PDF exact watchlist trigger US Credit repricing benign_trigger",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PDF exact watchlist trigger US Curve evolution adverse_trigger",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PDF exact watchlist trigger US Curve evolution benign_trigger",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PDF exact watchlist trigger US Equity repricing adverse_trigger",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PDF exact watchlist trigger US Equity repricing benign_trigger",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PDF exact watchlist trigger US Inflation persistence adverse_trigger",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "PDF exact watchlist trigger US Inflation persistence benign_trigger",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

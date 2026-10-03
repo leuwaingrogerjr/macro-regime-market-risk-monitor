@@ -1,0 +1,10 @@
+region,current_regime,watch_variable,adverse_trigger,adverse_interpretation,benign_trigger,benign_interpretation
+Eurozone,Overheating,Equity repricing,EURO STOXX 50 weakens materially,Risk assets begin reflecting tighter macro conditions,Equities remain resilient,Markets retain a benign growth interpretation
+Eurozone,Overheating,Front-end rates,Eurozone 2Y yield rises further,Market prices tighter monetary conditions,Eurozone 2Y yield declines,Near-term policy pressure is easing
+Eurozone,Overheating,Inflation persistence,HICP remains elevated,Keeps restrictive-policy pressure active,HICP falls toward target,Weakens overheating case
+Eurozone,Overheating,Long-rate pressure,Eurozone 10Y yield resumes rising,Inflation / policy pressure moves further into duration,Long yields remain stable or decline,Long-term inflation concerns remain contained
+Eurozone,Overheating,Sovereign fragmentation,Italy-Germany spread widens materially,Tighter conditions begin generating regional stress,Spread remains contained,Markets view tightening as manageable
+US,Stagflation,Credit repricing,Baa-10Y spread begins widening,Risk assets begin converging toward macro weakness,Spread remains tight or narrows,Credit market continues looking through macro weakness
+US,Stagflation,Curve evolution,10Y-2Y curve flattens materially or inverts,Increasing concern over restrictive policy / growth,Curve steepens alongside easing inflation,Improves soft-landing interpretation
+US,Stagflation,Equity repricing,S&P 500 momentum weakens / returns turn negative,Growth-risk component begins entering market pricing,Equities remain resilient,Markets continue discounting a benign resolution
+US,Stagflation,Inflation persistence,CPI / inflation expectations remain elevated,Supports persistence of stagflation pressure,Inflation declines materially,Weakens stagflation case

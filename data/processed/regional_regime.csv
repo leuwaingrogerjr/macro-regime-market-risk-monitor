@@ -1,0 +1,118 @@
+quarter,us_regime,eurozone_regime,regime_divergence
+1997Q1,Goldilocks,Deflationary Slowdown,True
+1997Q2,Goldilocks,Goldilocks,False
+1997Q3,Goldilocks,Goldilocks,False
+1997Q4,Goldilocks,Goldilocks,False
+1998Q1,Goldilocks,Goldilocks,False
+1998Q2,Goldilocks,Deflationary Slowdown,True
+1998Q3,Goldilocks,Deflationary Slowdown,True
+1998Q4,Goldilocks,Deflationary Slowdown,True
+1999Q1,Goldilocks,Goldilocks,False
+1999Q2,Goldilocks,Deflationary Slowdown,True
+1999Q3,Goldilocks,Goldilocks,False
+1999Q4,Goldilocks,Goldilocks,False
+2000Q1,Stagflation,Goldilocks,True
+2000Q2,Overheating,Goldilocks,True
+2000Q3,Stagflation,Goldilocks,True
+2000Q4,Overheating,Deflationary Slowdown,True
+2001Q1,Stagflation,Goldilocks,True
+2001Q2,Overheating,Deflationary Slowdown,True
+2001Q3,Deflationary Slowdown,Deflationary Slowdown,False
+2001Q4,Deflationary Slowdown,Deflationary Slowdown,False
+2002Q1,Goldilocks,Deflationary Slowdown,True
+2002Q2,Goldilocks,Deflationary Slowdown,True
+2002Q3,Deflationary Slowdown,Deflationary Slowdown,False
+2002Q4,Deflationary Slowdown,Deflationary Slowdown,False
+2003Q1,Goldilocks,Deflationary Slowdown,True
+2003Q2,Goldilocks,Deflationary Slowdown,True
+2003Q3,Goldilocks,Goldilocks,False
+2003Q4,Goldilocks,Goldilocks,False
+2004Q1,Goldilocks,Deflationary Slowdown,True
+2004Q2,Goldilocks,Goldilocks,False
+2004Q3,Goldilocks,Deflationary Slowdown,True
+2004Q4,Overheating,Deflationary Slowdown,True
+2005Q1,Overheating,Deflationary Slowdown,True
+2005Q2,Deflationary Slowdown,Goldilocks,True
+2005Q3,Overheating,Goldilocks,True
+2005Q4,Overheating,Goldilocks,True
+2006Q1,Overheating,Goldilocks,True
+2006Q2,Stagflation,Goldilocks,True
+2006Q3,Stagflation,Deflationary Slowdown,True
+2006Q4,Goldilocks,Goldilocks,False
+2007Q1,Deflationary Slowdown,Goldilocks,True
+2007Q2,Goldilocks,Goldilocks,False
+2007Q3,Goldilocks,Deflationary Slowdown,True
+2007Q4,Overheating,Deflationary Slowdown,True
+2008Q1,Stagflation,Overheating,True
+2008Q2,Overheating,Stagflation,True
+2008Q3,Stagflation,Stagflation,False
+2008Q4,Deflationary Slowdown,Deflationary Slowdown,False
+2009Q1,Deflationary Slowdown,Deflationary Slowdown,False
+2009Q2,Deflationary Slowdown,Deflationary Slowdown,False
+2009Q3,Deflationary Slowdown,Deflationary Slowdown,False
+2009Q4,Goldilocks,Deflationary Slowdown,True
+2010Q1,Deflationary Slowdown,Deflationary Slowdown,False
+2010Q2,Goldilocks,Goldilocks,False
+2010Q3,Goldilocks,Deflationary Slowdown,True
+2010Q4,Goldilocks,Goldilocks,False
+2011Q1,Deflationary Slowdown,Goldilocks,True
+2011Q2,Overheating,Deflationary Slowdown,True
+2011Q3,Stagflation,Deflationary Slowdown,True
+2011Q4,Overheating,Deflationary Slowdown,True
+2012Q1,Goldilocks,Deflationary Slowdown,True
+2012Q2,Deflationary Slowdown,Deflationary Slowdown,False
+2012Q3,Deflationary Slowdown,Deflationary Slowdown,False
+2012Q4,Deflationary Slowdown,Deflationary Slowdown,False
+2013Q1,Goldilocks,Deflationary Slowdown,True
+2013Q2,Deflationary Slowdown,Goldilocks,True
+2013Q3,Goldilocks,Deflationary Slowdown,True
+2013Q4,Goldilocks,Deflationary Slowdown,True
+2014Q1,Deflationary Slowdown,Deflationary Slowdown,False
+2014Q2,Goldilocks,Deflationary Slowdown,True
+2014Q3,Goldilocks,Deflationary Slowdown,True
+2014Q4,Deflationary Slowdown,Deflationary Slowdown,False
+2015Q1,Goldilocks,Goldilocks,False
+2015Q2,Goldilocks,Deflationary Slowdown,True
+2015Q3,Deflationary Slowdown,Deflationary Slowdown,False
+2015Q4,Deflationary Slowdown,Deflationary Slowdown,False
+2016Q1,Goldilocks,Deflationary Slowdown,True
+2016Q2,Deflationary Slowdown,Deflationary Slowdown,False
+2016Q3,Goldilocks,Deflationary Slowdown,True
+2016Q4,Goldilocks,Goldilocks,False
+2017Q1,Deflationary Slowdown,Goldilocks,True
+2017Q2,Goldilocks,Goldilocks,False
+2017Q3,Goldilocks,Goldilocks,False
+2017Q4,Goldilocks,Goldilocks,False
+2018Q1,Goldilocks,Deflationary Slowdown,True
+2018Q2,Goldilocks,Deflationary Slowdown,True
+2018Q3,Goldilocks,Deflationary Slowdown,True
+2018Q4,Deflationary Slowdown,Deflationary Slowdown,False
+2019Q1,Goldilocks,Goldilocks,False
+2019Q2,Goldilocks,Deflationary Slowdown,True
+2019Q3,Goldilocks,Deflationary Slowdown,True
+2019Q4,Goldilocks,Deflationary Slowdown,True
+2020Q1,Deflationary Slowdown,Deflationary Slowdown,False
+2020Q2,Deflationary Slowdown,Deflationary Slowdown,False
+2020Q3,Goldilocks,Goldilocks,False
+2020Q4,Goldilocks,Deflationary Slowdown,True
+2021Q1,Goldilocks,Goldilocks,False
+2021Q2,Overheating,Goldilocks,True
+2021Q3,Overheating,Goldilocks,True
+2021Q4,Overheating,Overheating,False
+2022Q1,Stagflation,Overheating,True
+2022Q2,Stagflation,Overheating,True
+2022Q3,Overheating,Stagflation,True
+2022Q4,Overheating,Stagflation,True
+2023Q1,Overheating,Stagflation,True
+2023Q2,Overheating,Stagflation,True
+2023Q3,Overheating,Stagflation,True
+2023Q4,Overheating,Deflationary Slowdown,True
+2024Q1,Stagflation,Deflationary Slowdown,True
+2024Q2,Overheating,Deflationary Slowdown,True
+2024Q3,Goldilocks,Deflationary Slowdown,True
+2024Q4,Deflationary Slowdown,Deflationary Slowdown,False
+2025Q1,Deflationary Slowdown,Deflationary Slowdown,False
+2025Q2,Goldilocks,Deflationary Slowdown,True
+2025Q3,Goldilocks,Deflationary Slowdown,True
+2026Q1,Goldilocks,Deflationary Slowdown,True
+2026Q2,Stagflation,Overheating,True

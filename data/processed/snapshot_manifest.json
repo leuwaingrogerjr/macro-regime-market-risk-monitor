@@ -1,0 +1,255 @@
+{
+  "cross_asset_quarterly.csv": {
+    "rows": 70,
+    "columns": [
+      "quarter",
+      "us_regime",
+      "eurozone_regime",
+      "regime_divergence",
+      "sp500_return",
+      "eurostoxx50_return",
+      "eurusd_return",
+      "us_baa_10y_spread",
+      "baa_spread_qoq_change",
+      "us_10y_2y_spread",
+      "eurozone_10y_2y_spread",
+      "italy_germany_10y_spread",
+      "us_expected_real_2y_rate",
+      "eurozone_expected_real_2y_rate",
+      "us_10y_yield",
+      "eurozone_10y_yield",
+      "us_10y_qoq_change",
+      "eurozone_10y_qoq_change",
+      "us_10y_direction",
+      "eurozone_10y_direction",
+      "fragmentation_signal",
+      "equity_signal",
+      "credit_signal",
+      "curve_signal",
+      "forward_real_rate_signal",
+      "us_equity_signal",
+      "us_credit_signal",
+      "us_curve_signal",
+      "us_real_rate_signal",
+      "eurozone_equity_signal",
+      "eurozone_curve_signal",
+      "eurozone_real_rate_signal",
+      "eurozone_fragmentation_signal",
+      "us_market_stress_count",
+      "eurozone_market_stress_count",
+      "macro_market_configuration"
+    ],
+    "sha256": "40c2b94628469f8ca3351e3462148ed6bf753fb56fe560312d31cc8daf8f6637"
+  },
+  "current_pricing_comparison.csv": {
+    "rows": 12,
+    "columns": [
+      "region",
+      "current_quarter",
+      "current_regime",
+      "historical_n",
+      "metric",
+      "current_value",
+      "historical_median",
+      "difference"
+    ],
+    "sha256": "86a6c070c192523314648927fc235b308986a480d9e4e688ec1ca139438464b3"
+  },
+  "current_pricing_diagnostic.csv": {
+    "rows": 12,
+    "columns": [
+      "region",
+      "current_quarter",
+      "current_regime",
+      "historical_n",
+      "metric",
+      "current_value",
+      "historical_median",
+      "difference",
+      "pricing_channel",
+      "diagnostic"
+    ],
+    "sha256": "0e0b9a8c14a3f5e2d7a2bc3c31a96ffc4ab23dc08ffc3c5bb564f85fa8cf4230"
+  },
+  "current_regime_benchmark.csv": {
+    "rows": 2,
+    "columns": [
+      "region",
+      "current_quarter",
+      "current_regime",
+      "historical_n",
+      "current_equity_return",
+      "equity_return_mean",
+      "equity_return_median",
+      "risk_spread_metric",
+      "current_risk_spread",
+      "risk_spread_mean",
+      "risk_spread_median",
+      "current_curve",
+      "curve_mean",
+      "curve_median",
+      "current_real_rate",
+      "real_rate_mean",
+      "real_rate_median",
+      "current_yield_change",
+      "yield_change_mean",
+      "yield_change_median",
+      "current_stress_count",
+      "stress_count_mean",
+      "stress_count_median",
+      "equity_stress_share",
+      "spread_stress_share",
+      "curve_stress_share",
+      "negative_real_rate_share",
+      "multi_channel_stress_share"
+    ],
+    "sha256": "cb1735b52cd98da93740e3843c17050a56e2d073937fda4de04c40048a33dc5f"
+  },
+  "equity_regime_analysis.csv": {
+    "rows": 73,
+    "columns": [
+      "quarter",
+      "us_regime",
+      "eurozone_regime",
+      "regime_divergence",
+      "sp500_return",
+      "eurostoxx50_return"
+    ],
+    "sha256": "ca10d8e2ab001c064535646631983d8c586dd27ca40f92c0a04fdfa836c2ac9c"
+  },
+  "macro_regime_signals.csv": {
+    "rows": 117,
+    "columns": [
+      "quarter",
+      "us_regime",
+      "eurozone_regime",
+      "regime_divergence"
+    ],
+    "sha256": "f41f095e137132c7e2b828e7ef9da450a65b1c9a89fef056b43885fc68f97bf0"
+  },
+  "market_confirmation.csv": {
+    "rows": 70,
+    "columns": [
+      "quarter",
+      "us_regime",
+      "eurozone_regime",
+      "regime_divergence",
+      "us_10y_2y_spread",
+      "us_curve_regime",
+      "eurozone_10y_2y_spread",
+      "eurozone_curve_regime",
+      "italy_germany_10y_spread",
+      "us_expected_real_2y_rate",
+      "eurozone_expected_real_2y_rate",
+      "italy_germany_spread_qoq_change",
+      "curve_confirmation",
+      "curve_signal",
+      "forward_real_rate_signal",
+      "fragmentation_signal",
+      "market_confirmation_signal",
+      "us_10y_yield",
+      "eurozone_10y_yield",
+      "us_10y_qoq_change",
+      "eurozone_10y_qoq_change",
+      "us_10y_direction",
+      "eurozone_10y_direction",
+      "us_10y_breakeven",
+      "us_10y_real_yield_proxy"
+    ],
+    "sha256": "2fd9a0f25f434cabdc81a3a1dd233f14d40f83fb5a4df0fefd5074d4f482b8e0"
+  },
+  "monthly_market_signals.csv": {
+    "rows": 213,
+    "columns": [
+      "month",
+      "us_policy_rate",
+      "us_cpi_yoy",
+      "us_real_policy_rate",
+      "us_2y_yield",
+      "us_real_2y_rate",
+      "us_2y_policy_gap",
+      "eurozone_policy_rate",
+      "hicp_yoy",
+      "eurozone_real_policy_rate",
+      "eurozone_2y_yield",
+      "eurozone_real_2y_rate",
+      "eurozone_2y_policy_gap",
+      "us_10y_yield",
+      "us_10y_2y_spread",
+      "us_curve_regime",
+      "eurozone_10y_yield",
+      "eurozone_10y_2y_spread",
+      "eurozone_curve_regime",
+      "germany_10y_yield",
+      "italy_10y_yield",
+      "italy_germany_10y_spread",
+      "spread_change"
+    ],
+    "sha256": "99c9d98f409a16af6300258213b03232947d2ea87121427f01c5fa312186e9ed"
+  },
+  "powerbi_monitor.csv": {
+    "rows": 70,
+    "columns": [
+      "quarter",
+      "us_regime",
+      "eurozone_regime",
+      "regime_divergence",
+      "us_market_stress_count",
+      "eurozone_market_stress_count",
+      "eurozone_minus_us_stress",
+      "us_equity_signal",
+      "us_credit_signal",
+      "us_curve_signal",
+      "us_real_rate_signal",
+      "eurozone_equity_signal",
+      "eurozone_curve_signal",
+      "eurozone_real_rate_signal",
+      "eurozone_fragmentation_signal",
+      "sp500_return",
+      "eurostoxx50_return",
+      "eurusd_return",
+      "us_10y_2y_spread",
+      "eurozone_10y_2y_spread",
+      "us_expected_real_2y_rate",
+      "eurozone_expected_real_2y_rate",
+      "italy_germany_10y_spread",
+      "us_baa_10y_spread"
+    ],
+    "sha256": "80b55a7bb15f3bde317990ad283851948d9af180fedc9e829b0ee3a3b4177131"
+  },
+  "regional_regime.csv": {
+    "rows": 117,
+    "columns": [
+      "quarter",
+      "us_regime",
+      "eurozone_regime",
+      "regime_divergence"
+    ],
+    "sha256": "f41f095e137132c7e2b828e7ef9da450a65b1c9a89fef056b43885fc68f97bf0"
+  },
+  "repricing_watchlist.csv": {
+    "rows": 9,
+    "columns": [
+      "region",
+      "current_regime",
+      "watch_variable",
+      "adverse_trigger",
+      "adverse_interpretation",
+      "benign_trigger",
+      "benign_interpretation"
+    ],
+    "sha256": "02f1f7287365b4d6421cdd4d9ccaf8fff2222b0ab5fca72d3ac7f675995f0b7f"
+  },
+  "us_regime.csv": {
+    "rows": 313,
+    "columns": [
+      "quarter",
+      "real_gdp_growth_qoq",
+      "us_cpi_yoy",
+      "growth_regime",
+      "inflation_regime",
+      "regime"
+    ],
+    "sha256": "5e0e9ec3a74555b548316613fc5b29b349791dc7d32c4089740c69696e889f7d"
+  }
+}
