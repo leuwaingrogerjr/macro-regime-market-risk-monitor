@@ -4,6 +4,12 @@
 
 This project classifies each region's growth and inflation environment, compares equities, credit and rates with earlier matching regimes, and presents the evidence in a five-page Power BI report. It connects **Python → DuckDB SQL → financial analysis → Power BI** in a reproducible analytical workflow.
 
+## Start here
+
+- [Employer guide](docs/recruiter_guide.md): project scope, evidence of reporting skills and practical limits.
+- [Three-page research note](docs/research_summary.pdf): financial interpretation and scenario watchlist.
+- [Five Power BI report pages](powerbi/README.md): the finished dashboard views.
+
 ![Executive Monitor](powerbi/screenshots/01_executive_monitor.png)
 
 ## Findings at a glance
